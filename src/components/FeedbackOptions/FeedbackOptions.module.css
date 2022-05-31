@@ -1,0 +1,29 @@
+.btn {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background: rgb(57, 57, 191);
+  box-shadow: 0 -3px rgb(211, 246, 12) inset;
+  transition: 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(8, 42, 238);
+}
+
+.btn:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.btn:nth-child(2n) {
+  margin: 20px 15px;
+}
+
+.btn:first-letter {
+  text-transform: uppercase;
+}
